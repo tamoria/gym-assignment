@@ -1,0 +1,238 @@
+* {
+    /* border: 1px solid purple; */
+}
+
+/* Navbar */
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+
+/* About panel */
+
+ .container-fluid {
+    position: relative;
+    text-align: center;
+  }
+
+  .background {
+    height: 690px;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+#section-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-bottom: -20px;
+  }
+
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+h5 {
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Classes Panel */
+
+#classes {
+    background-color: rgba(67, 117, 128, 0.711);
+}
+
+#class-names {
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(3, 70, 96);
+    font-size: 20px; 
+    font-weight: 700;
+}
+
+.space-tile {
+    width: 100%;
+    height: 100%;
+}
+
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.room-image-container {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center; 
+}
+
+.room-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    margin-top: 5px;
+}
+
+/* Contact Panel */
+
+#contact {
+    background-color: rgba(67, 117, 128, 0.711);
+}
+
+.img-fluid {
+    margin-bottom: 30px;
+}
+
+.foothead {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    margin-left: 30px;
+    color: black
+}
+
+.tiny {
+    color: black;
+}
+
+/* Sign-in-panel */
+
+#sign-in-box {
+    border: 3px solid lightgray;
+    border-radius: 3px;
+    border-width: 3px;
+    width: 500px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-in-image {
+    height: 650px;
+    margin-left: 80px;
+}
+
+.sign-in-title {
+    margin-left: 15px;
+    font-weight: 700;
+    color:rgb(114, 123, 173);
+}
+#Need {
+    color: blue;
+    font-size: small;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    color: blue;
+    font-size: x-small;
+    margin: 10px;
+}
+
+input {
+    background-color: white;
+    width: 93%;
+    height: 25px;
+}
+
+
+form {
+    color: black;
+    padding: 2px;
+    background-color: rbg(104, 133, 103);
+    border-radius: 5px;
+    margin-left: 20px;
+    line-height: 1.8;
+    
+}
+
+#continue {
+    color: white;
+    background-color: rgb(143, 150, 190);
+    padding: 5px;
+    border-radius: 3px;
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 10px;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+#Forgot {
+    color: blue;
+    font-size: small;
+    margin-left: 250px;
+}
+
+#New {
+    color: rgb(64, 94, 193);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#create {
+    width: 90%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
